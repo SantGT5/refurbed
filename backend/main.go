@@ -9,8 +9,6 @@ import (
 	"assignment-backend/middleware"
 )
 
-// Products endpoint with 30s TTL caching implemented
-
 func main() {
 	mux := http.NewServeMux()
 
